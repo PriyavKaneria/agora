@@ -1,0 +1,27 @@
+[ollama]
+host = "http://127.0.0.1:11434"
+triage_model = "llama3.1:8b"
+draft_model = "llama3.1:8b"
+
+[reddit]
+client_id = "YOUR_CLIENT_ID"
+client_secret = "YOUR_CLIENT_SECRET"
+username = "YOUR_REDDIT_USERNAME"
+password = "YOUR_REDDIT_PASSWORD"
+user_agent = "agora-orchestrator/0.1 by YOUR_REDDIT_USERNAME"
+subreddits = ["all"]
+limit_per_query = 15
+lookback_hours = 24
+
+[telegram]
+bot_token = "YOUR_TELEGRAM_BOT_TOKEN"
+allowed_chat_ids = []
+scan_interval_minutes = 20
+
+[runtime]
+provider = "reddit"
+db_path = "agora.db"
+project_dir = "products/default"
+max_candidates_per_scan = 5
+min_heuristic_score = 0.15
+dry_run_send = true

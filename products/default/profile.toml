@@ -1,0 +1,15 @@
+product_name = "Your Product Name"
+target_audience = "Who this is for and what they are trying to achieve."
+value_props = [
+  "Primary value proposition",
+  "Secondary value proposition",
+]
+key_phrases = [
+  "problem phrase one",
+  "problem phrase two",
+  "search phrase three",
+]
+forbidden_claims = [
+  "guaranteed results",
+  "best in the world",
+]
